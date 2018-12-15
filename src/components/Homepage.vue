@@ -4,7 +4,7 @@
 
     <input type="text" @keyup.enter="submitQuery">
     <div v-for="post in recentPosts" :key="post.id"> 
-      <h2>{{post.title}}</h2>
+      {{post.title}}
     </div>
   </div>
 </template>
